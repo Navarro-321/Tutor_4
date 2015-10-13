@@ -1,2 +1,14 @@
 ﻿body {
-}
+            font: 1em Sans-Serif;
+        }
+
+        .flex {
+            display: -webkit-box;
+            display: flex;
+        }
+
+            .flex > div:nth-child(2) {
+                -webkit-flex-grow: 1;
+                flex-grow: 1;
+                text-align: right;
+      }
